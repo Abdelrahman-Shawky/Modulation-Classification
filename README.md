@@ -61,6 +61,12 @@ Optimizaer: Adam Optimizer
 
 ○ Softmax output Layer: 10
 
+## Conclusion
+The best model was found through hyperparameter tuning on the learning rate on the validation dataset, the highest accuracy was obtained using the CNN model trained
+with the raw data features giving an accuracy of 57.0%. Further investigation showed an accuracy of 78% at
+SNR=0dB, as well as, 81% at the highest SNR.
+
+These findings demonstrate the potential of deep learning models for analyzing synthetic radio signals and suggest that the CNN network is a promising approach for this type of analysis. Further research is needed to optimize the performance of these models and to extend their applicability to other types of signals and scenarios.
 ## References
 [1] T. O’shea, N. West “Radio Machine Learning Dataset Generation with GNU Radio”, https://pubs.gnuradio.org/index.php/grcon/article/download/11/10/
 
